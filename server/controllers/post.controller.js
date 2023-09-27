@@ -1,7 +1,7 @@
 const Validator = require('fastest-validator');
 const models = require('../models');
 
-function save(req, res){
+function createPost(req, res){
     const post = {
         title: req.body.title,
         content: req.body.content,
@@ -144,7 +144,7 @@ function destroy(req, res){
 }
  
 module.exports = {
-    save: save,
+    createPost: createPost,
     show: show,
     index: index,
     update: update,

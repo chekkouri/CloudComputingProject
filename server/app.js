@@ -34,7 +34,7 @@ app.use("/test", testRoutes);
 
 
 // Port Number
-const PORT = process.env.PORT ||3000; 
+const PORT = process.env.PORT ||3002; 
 
 // Server Setup
 app.listen(PORT,console.log(
