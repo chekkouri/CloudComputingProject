@@ -1,6 +1,6 @@
 // Requiring module
 const express = require('express');
-
+const env = require('dotenv');
 // Creating express object
 const app = express();
 
@@ -11,7 +11,25 @@ app.get('/', (req, res) => {
 	res.end()
 })
 
+env.config();
+const cors = require('cors');
+app.use(cors());
+const bodyParser = require('body-parser');
 
+const postsRoute = require('./routes/posts');
+const userRoute = require('./routes/user');
+const commentsRoute = require('./routes/comments');
+const imageRoute = require('./routes/images');
+const testRoutes = require('./routes/tests');
+
+app.use(bodyParser.json());
+app.use('/uploads', express.static('uploads'));
+
+app.use("/posts", postsRoute);
+app.use("/user", userRoute);
+app.use("/comments", commentsRoute);
+app.use("/images", imageRoute);
+app.use("/test", testRoutes);
 
 
 
