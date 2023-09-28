@@ -56,7 +56,7 @@ sudo pm2 startup
 Now I can reboot the instance using sudo reboot and connect after 1 min. I can still see the app is running on port 3000 using:
 
 PM2 list
-# Or
+Or : 
 PM2 show app 
 
 I can access the app on my browser also.
