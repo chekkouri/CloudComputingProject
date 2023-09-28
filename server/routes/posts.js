@@ -8,6 +8,6 @@ router.post("/", checkAuthMiddleware.checkAuth, postsController.createPost);
 router.get("/", postsController.index);
 router.get("/:id", postsController.show);
 router.patch("/:id", checkAuthMiddleware.checkAuth, postsController.update);
-router.delete("/:id", checkAuthMiddleware.checkAuth, postsController.destroy);
+router.delete("/:id", checkAuthMiddleware.checkAuth, postsController.delete);
 
 module.exports = router;

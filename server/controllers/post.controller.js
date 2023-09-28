@@ -127,7 +127,7 @@ function update(req, res){
     });
 }
 
-function destroy(req, res){
+function deleteById(req, res){
     const id = req.params.id;
     const userId =  req.userData.user;
 
@@ -148,5 +148,5 @@ module.exports = {
     show: show,
     index: index,
     update: update,
-    destroy: destroy
+    delete: deleteById
 }
