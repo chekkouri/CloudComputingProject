@@ -55,22 +55,24 @@ sudo pm2 startup
 
 Now I can reboot the instance using sudo reboot and connect after 1 min. I can still see the app is running on port 3000 using:
 
-PM2 list
-Or : 
+PM2 list  
+   Or : 
 PM2 show app 
 
 I can access the app on my browser also.
 
 
 
-
 # Clone app on server
-- I Clone my repository using the command down below : 
+- I clone my repository using the command down below : 
 git clone https://github.com/chekkouri/CloudComputingProject.git
 - After cloning the repository, run in your terminal : 
-ls
-cd CloudComputingProject
-cd server
+ls   
+cd CloudComputingProject   
+cd server   
+
+![933B3D07-A95F-4E48-B35B-F8EA227F2E8B_1_201_a](https://github.com/chekkouri/CloudComputingProject/assets/61733267/b9fbe8bb-c0ab-475a-a4c3-b866e1db9b3c)
+
 
 
 
