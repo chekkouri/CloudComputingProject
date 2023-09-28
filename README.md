@@ -42,41 +42,54 @@ sudo apt-get install git
 
 # Keep App running using PM2  
 - The app is running as soon as you open the terminal and it will terminate as you will close the terminal. In that case I will install PM2 (Production manager 2) to keep live my app after closing my terminal or disconnect from remote server. Run the following command:
-  
+```
 npm install pm2 -g
+```
+
 
 - It will install PM2 package globally on server. Switch to our app directory and run:
-
+```
 sudo pm2 start app.js
-
+```
 - Now even if you close the terminal and check the url in the browser, the app will be running. Sweet! For automatically running PM2 when the server restarts, issue the following command:
-
+```
 sudo pm2 startup
-
+```
 Now I can reboot the instance using sudo reboot and connect after 1 min. I can still see the app is running on port 3000 using:
-
-PM2 list  
+```
+PM2 list
+``` 
    Or : 
-PM2 show app 
+```
+PM2 show app
+```
 
 I can access the app on my browser also.
 
-
+![933B3D07-A95F-4E48-B35B-F8EA227F2E8B_1_201_a](https://github.com/chekkouri/CloudComputingProject/assets/61733267/b9fbe8bb-c0ab-475a-a4c3-b866e1db9b3c)
 
 # Clone app on server
 - I clone my repository using the command down below : 
 git clone https://github.com/chekkouri/CloudComputingProject.git
-- After cloning the repository, run in your terminal : 
+- After cloning the repository, run in your terminal :
+
+```
 ls   
 cd CloudComputingProject   
-cd server   
+cd server
+```
 
-![933B3D07-A95F-4E48-B35B-F8EA227F2E8B_1_201_a](https://github.com/chekkouri/CloudComputingProject/assets/61733267/b9fbe8bb-c0ab-475a-a4c3-b866e1db9b3c)
+# Start the node.js app with pm2 to keep the app alive even when we close the console
+I have successfully cloned the app on my server. And I run the following command inside my project directory:
 
+```
+npm install
+```
 
-
-
-
+```
+pm2 start app.js
+```
+It will install all the required packages for the app. There are several ways to start our app but we will use simple command:
 
 
 
