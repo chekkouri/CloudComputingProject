@@ -91,6 +91,25 @@ pm2 start app.js
 ```
 It will install all the required packages for the app. There are several ways to start our app but we will use simple command:
 
+```
+node app.js
+```
+I copy public DNS from my instances page, paste it on my web browser, and append port :3000 at the end of the DNS address.As I will see this will not work and there is nothing to show on browser and the browser connection will timeout.
+
+This is where the Security Group comes in. In the AWS management console, I go to Security Groups, select the one not named ‘default’ (launch-wizard-1 or your security group name) and edit the Inbound rules.
+I Access the URL again and I am be able to see the app content now.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
