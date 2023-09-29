@@ -124,6 +124,9 @@ Posts :
 
 
 
+PS: Template was already ready but i add somedification to it to make it personal and i integrate API.
+
+
 
 
 
