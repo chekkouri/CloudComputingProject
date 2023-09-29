@@ -2,7 +2,7 @@ const Footer = () => {
 	return (
 		<div className="footer">
 			<p>
-				Developed by <a href="https://github.com/ashiqfury">Fatima Ezzahraa Chekkouri</a>
+				Developed by <a href="https://github.com/chekkouri">Fatima Ezzahraa Chekkouri</a>
 			</p>
 		</div>
 	)

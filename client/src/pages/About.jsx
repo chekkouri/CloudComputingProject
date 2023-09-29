@@ -25,21 +25,9 @@ const About = () => {
 						/>
 						<span className="about__left__name">Fatima Ezzahraa</span>
 						<span className="about__left__desc">
-							Building fullstack projects with passion and love. I am creating a new world with
-							creativity. Share your ideas with us to build our dream world together.
+							Building fullstack projects with passion and love.
 						</span>
-						<div className="about__left__button">
-							<a href="https://github.com/ashiqfury/" target="_blank" rel="noreferrer">
-								<i className="fas fa-user"></i>
-							</a>
-							<a
-								href="https://github.com/ashiqfury/react-blog-app/"
-								target="_blank"
-								rel="noreferrer"
-							>
-								Source Code
-							</a>
-						</div>
+						
 					</div>
 				</div>
 				<div className="about__right">
@@ -50,8 +38,6 @@ const About = () => {
 								<Tech img={react} name="React Js" desc="UI Development" alt="react" />
 								<Tech img={node} name="Node Js" desc="Server" alt="node" />
 								<Tech img={express} name="Express Js" desc="API Development" alt="express" />
-								<Tech img={mongo} name="Mongo DB" desc="NoSQL Database" alt="mongo" />
-								<Tech img={sass} name="Sass" desc="Styling" alt="sass" />
 								<Tech img={redux} name="Redux" desc="State Management" alt="redux" />
 								<Tech img={git} name="Git" desc="Source Control" alt="git" />
 								<Tech img={github} name="Github" desc="Code Hosting" alt="github" />

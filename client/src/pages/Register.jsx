@@ -58,7 +58,7 @@ const Register = () => {
 		<div className="register">
 			<Toaster />
 			<div className="register__left">
-				<span>Fury Blogz.</span>
+				<span>The Fzz</span>
 				<p>
 					Don't waste your time on thinking, share your ideas with us and we will turn them into
 					reality...
