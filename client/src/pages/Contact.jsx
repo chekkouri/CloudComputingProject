@@ -55,59 +55,28 @@ const Contact = () => {
 								<span>
 									<i className="fas fa-user"></i>
 								</span>
-								<span>ashiq @fury</span>
+								<span>Fatima Ezzahra Chekkouri</span>
 							</li>
 							<li className="infolist__email">
 								<span>
 									<i className="fas fa-envelope"></i>
 								</span>
-								<span>ashiqasraf07@gmail.com</span>
+								<span></span>
 							</li>
-							<li className="infolist__phone">
-								<span>
-									<i className="fas fa-phone"></i>
-								</span>
-								<span>+91 733-927-8868</span>
-							</li>
+						
 							<li className="infolist__location">
 								<span>
 									<i className="fas fa-map-marker-alt"></i>
 								</span>
 								<span>
-									40, Rahman Taj Nagar, <br />
-									Melapalayam, <br />
-									Tirunelveli - 627005.
+								
 								</span>
 							</li>
 						</ul>
 					</div>
-					<ul className="sci">
+					<ul className="sci">	
 						<li>
-							<a href="https://facebook.com/ashiqfury" target="_blank" rel="noreferrer">
-								<i className="fab fa-facebook-square"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://instagram.com/_a.s.h.i.q__f.u.r.y_" target="_blank" rel="noreferrer">
-								<i className="fab fa-instagram-square"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://twitter.com/ashiqfury" target="_blank" rel="noreferrer">
-								<i className="fab fa-twitter-square"></i>
-							</a>
-						</li>
-						<li>
-							<a
-								href="https://www.linkedin.com/in/ashiq-fury-1224a9205/"
-								target="_blank"
-								rel="noreferrer"
-							>
-								<i className="fab fa-linkedin"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://github.com/ashiqfury" target="_blank" rel="noreferrer">
+							<a href="https://github.com/chekkouri" target="_blank" rel="noreferrer">
 								<i className="fab fa-github-square"></i>
 							</a>
 						</li>
