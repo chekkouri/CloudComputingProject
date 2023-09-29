@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "wpMmPIHg",
+    "database": "blog",
+    "host": "mysql-147699-0.cloudclusters.net",
+    "dialect": "mysql",
+    "port" : "12719"
+  },
+  "test": {
+    "username": "admin",
+    "password": "wpMmPIHg",
+    "database": "blog",
+    "host": "mysql-147699-0.cloudclusters.net",
+    "dialect": "mysql",
+    "port" : "12719"
+  },
+  "production": {
+    "username": "admin",
+    "password": "wpMmPIHg",
+    "database": "blog",
+    "host": "mysql-147699-0.cloudclusters.net",
+    "dialect": "mysql",
+    "port" : "12719"
+  }
+}
