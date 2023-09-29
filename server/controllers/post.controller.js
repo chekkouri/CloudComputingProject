@@ -130,7 +130,7 @@ function update(req, res){
 function deleteById(req, res){
     const id = req.params.id;
     const userId =  req.userData.userId;
-    models.Post.destroy({where:{id:id, userId:userId}}).then(result => {
+    models.Post.destroy({where:{id:id}}).then(result => {
         res.status(200).json({
             message: "Post deleted successfully"
         });
