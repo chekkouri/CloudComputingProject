@@ -12,12 +12,14 @@ async function upload(req, res){
         
           const blob = fs.readFileSync(req.file.path)
           const uploadedImage = await s3.upload({
-            Bucket: "fatimaezzahraachekkouri11.com",
+            Bucket: "myblogseverbucket",
             Key: req.file.filename,
-            Body: blob,
+            ContentType: req.file.mimetype,
+            ACL:'public-read',
+            Body: blob
           }).promise()
 
-          console.log(upload,"asdasdasdasdasdasd")
+          console.log(uploadedImage,"asdasdasdasdasdasd")
         res.status(201).json({
             mesaage: "Image upload successfully",
             url: uploadedImage.Location
