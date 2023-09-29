@@ -5,7 +5,7 @@ function createPost(req, res){
     const post = {
         title: req.body.title,
         content: req.body.content,
-        imageUrl: req.body.image_url,
+        imageUrl: req.body.imageUrl,
         categoryId: req.body.category_id,
         userId: req.userData.user
     }
