@@ -100,9 +100,25 @@ This is where the Security Group comes in. In the AWS management console, I go t
 I Access the URL again and I am be able to see the app content now.
 
 
+# API Reference : 
+
+User: 
+
+| Request Type  | End point          |                               desc                              |
+| ------------- |:------------------:| ---------------------------------------------------------------:|
+| Post          | users/login        | request body : email<String> , password<String>                 |
+| Post          | users/register     |   request body : email<String> , password<String>, name<String> |
 
 
+Posts : 
 
+| Request Type  | End point      |          desc          |
+| ------------- |:-------------:| -----------------------:|
+| Post          | posts/        |   Create Post           |
+| GET           | posts/        |   Gets all the posts    |
+| GET           | posts/{id}    |   Gets post by id       |
+| Patch         | posts/{id}    |   Update the post by ID |
+| Delete        | posts/{id}    |   Delete the post by ID |
 
 
 
